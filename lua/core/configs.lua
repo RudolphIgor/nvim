@@ -18,3 +18,4 @@ vim.opt.softtabstop = 4
 vim.opt.scrolloff = 8
 -- Непереносимость строк
 vim.opt.wrap = false
+vim.opt.termguicolors = true
