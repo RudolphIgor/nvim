@@ -17,3 +17,7 @@ vim.keymap.set('n', '<c-l>', ':wincmd l<CR>')
 vim.keymap.set('n', '|', ':vsplit<CR>')
 vim.keymap.set('n', '\\', ':split<CR>')
 
+-- Neo-three
+vim.keymap.set('n', '<leader>e', ':Neotree toggle left reveal<CR>')
+vim.keymap.set('n', '<leader>o', ':Neotree toggle float reveal<CR>')
+
