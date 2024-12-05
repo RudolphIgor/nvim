@@ -9,9 +9,9 @@ return {
 					-- Conform will run multiple formatters sequentially
 					python = { "isort", "black" },
 					-- You can customize some of the format options for the filetype (:help conform.format)
-					rust = { "rustfmt", lsp_format = "fallback" },
+					rust = { "rustfmt" },
 					-- Conform will run the first available formatter
-					javascript = { "prettier", stop_after_first = true },
+					javascript = { "prettier" },
 				},
 			})
 			vim.api.nvim_create_autocmd("BufWritePre", {
